@@ -1,111 +1,111 @@
-# 🌸 Análise de Dados com Pandas e Visualização com Matplotlib
+# 🌸 Data Analysis with Pandas and Visualization with Matplotlib
 
-**Semana 7 - Python Assignment**
+**Week 7 - Python Assignment**
 
-Este projeto demonstra uma análise completa de dados usando as bibliotecas Pandas e Matplotlib em Python, implementando todas as tarefas solicitadas na atribuição.
+This project demonstrates a complete data analysis using the Pandas and Matplotlib libraries in Python, implementing all tasks requested in the assignment.
 
-## 📋 Objetivos da Atribuição
+## 📋 Assignment Objectives
 
-✅ **Carregar e analisar um dataset** usando a biblioteca pandas em Python  
-✅ **Criar gráficos e visualizações simples** com a biblioteca matplotlib  
-✅ **Demonstrar técnicas de análise exploratória de dados**  
-✅ **Implementar tratamento de erros** com mecanismos try-except  
+✅ **Load and analyze a dataset** using the pandas library in Python  
+✅ **Create simple charts and visualizations** with the matplotlib library  
+✅ **Demonstrate exploratory data analysis techniques**  
+✅ **Implement error handling** with try-except mechanisms  
 
-## 🚀 Funcionalidades Implementadas
+## 🚀 Implemented Features
 
-### Tarefa 1: Carregamento e Exploração do Dataset
-- ✅ Carregamento do dataset Iris usando sklearn
-- ✅ Exibição das primeiras linhas com `.head()`
-- ✅ Exploração da estrutura dos dados
-- ✅ Verificação de tipos de dados e valores ausentes
-- ✅ Limpeza de dados (demonstração conceitual)
+### Task 1: Dataset Loading and Exploration
+- ✅ Loading the Iris dataset using sklearn
+- ✅ Displaying the first rows with `.head()`
+- ✅ Exploring the dataset structure
+- ✅ Checking data types and missing values
+- ✅ Data cleaning (concept demonstration)
 
-### Tarefa 2: Análise Básica dos Dados
-- ✅ Cálculo de estatísticas básicas com `.describe()`
-- ✅ Agrupamento por espécie e cálculo de médias
-- ✅ Análise de correlações entre variáveis
-- ✅ Identificação de padrões interessantes nos dados
+### Task 2: Basic Data Analysis
+- ✅ Computing basic statistics with `.describe()`
+- ✅ Grouping by species and computing means
+- ✅ Correlations analysis among variables
+- ✅ Identifying interesting patterns in the data
 
-### Tarefa 3: Visualização dos Dados
-- ✅ **Gráfico de Linha**: Tendências das médias por espécie
-- ✅ **Gráfico de Barras**: Comparação entre espécies
-- ✅ **Histograma**: Distribuição das variáveis numéricas
-- ✅ **Gráfico de Dispersão**: Relações entre variáveis
+### Task 3: Data Visualization
+- ✅ **Line Chart**: Trends of means by species
+- ✅ **Bar Chart**: Comparison between species
+- ✅ **Histogram**: Distribution of numeric variables
+- ✅ **Scatter Plot**: Relationships between variables
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```
 python-assignment-week7/
-├── data_analysis.py          # Script Python principal
-├── data_analysis.ipynb       # Notebook Jupyter
-├── requirements.txt          # Dependências do projeto
-├── README.md                 # Este arquivo
-└── iris_analysis.png        # Visualizações geradas (após execução)
+├── data_analysis.py          # Main Python script
+├── data_analysis.ipynb       # Jupyter Notebook
+├── requirements.txt          # Project dependencies
+├── README.md                 # This file
+└── iris_analysis.png         # Generated visualizations (after running)
 ```
 
-## 🛠️ Instalação e Configuração
+## 🛠️ Installation and Setup
 
-### 1. Instalar Dependências
+### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Executar o Script Python
+### 2. Run the Python Script
 ```bash
 python data_analysis.py
 ```
 
-### 3. Executar o Notebook Jupyter
+### 3. Run the Jupyter Notebook
 ```bash
 jupyter notebook data_analysis.ipynb
 ```
 
-## 📊 Dataset Utilizado
+## 📊 Dataset Used
 
-**Dataset Iris** - Um clássico dataset de classificação que contém:
-- **150 amostras** de flores iris
-- **3 espécies**: setosa, versicolor, virginica
-- **4 características**: comprimento e largura de sépala e pétala
-- **Sem valores ausentes** - ideal para demonstração
+**Iris Dataset** - A classic classification dataset that contains:
+- **150 samples** of iris flowers
+- **3 species**: setosa, versicolor, virginica
+- **4 features**: sepal and petal length and width
+- **No missing values** - ideal for demonstration
 
-## 🔍 Principais Descobertas
+## 🔍 Key Findings
 
-### Análise por Espécie
-- **Setosa**: Espécie mais distinta, com pétalas menores
-- **Virginica**: Maiores medidas de pétala
-- **Versicolor**: Medidas intermediárias
+### Analysis by Species
+- **Setosa**: Most distinct species with smaller petals
+- **Virginica**: Largest petal measurements
+- **Versicolor**: Intermediate measurements
 
-### Correlações Importantes
-- Comprimento e largura de pétala: **0.963** (muito alta)
-- Comprimento e largura de sépala: **0.746** (alta)
-- Correlação moderada entre sépala e pétala
+### Important Correlations
+- Petal length vs petal width: **0.963** (very high)
+- Sepal length vs sepal width: **0.746** (high)
+- Moderate correlation between sepal and petal
 
-### Distribuição dos Dados
-- Dataset balanceado (50 amostras por espécie)
-- Distribuições aproximadamente normais
-- Espécies bem separáveis
+### Data Distribution
+- Balanced dataset (50 samples per species)
+- Approximately normal distributions
+- Well-separated species
 
-## 🎨 Visualizações Criadas
+## 🎨 Visualizations Created
 
-### 1. Gráfico de Linha
-- Mostra tendências das médias por espécie
-- Permite comparar facilmente as características entre espécies
+### 1. Line Chart
+- Shows trends of means by species
+- Enables easy comparison of features across species
 
-### 2. Gráfico de Barras
-- Compara médias entre espécies
-- Visualização clara das diferenças numéricas
+### 2. Bar Chart
+- Compares means across species
+- Clear visualization of numerical differences
 
-### 3. Histograma
-- Distribuição das variáveis numéricas
-- Ajuda a entender a forma dos dados
+### 3. Histogram
+- Distribution of numeric variables
+- Helps understand the shape of the data
 
-### 4. Gráfico de Dispersão
-- Relações entre diferentes variáveis
-- Mostra clusters naturais por espécie
+### 4. Scatter Plot
+- Relationships between different variables
+- Shows natural clusters by species
 
-## 💻 Código e Estrutura
+## 💻 Code and Structure
 
-### Classe Principal: `DataAnalyzer`
+### Main Class: `DataAnalyzer`
 ```python
 class DataAnalyzer:
     def __init__(self)
@@ -116,76 +116,76 @@ class DataAnalyzer:
     def run_complete_analysis(self)
 ```
 
-### Tratamento de Erros
-- ✅ Try-except para carregamento de dados
-- ✅ Verificação de dados válidos
-- ✅ Mensagens de erro informativas
-- ✅ Graceful handling de interrupções
+### Error Handling
+- ✅ Try-except for data loading
+- ✅ Validation for loaded data
+- ✅ Informative error messages
+- ✅ Graceful handling of interruptions
 
-### Customização de Gráficos
-- ✅ Títulos e labels em português
-- ✅ Cores atrativas e consistentes
-- ✅ Legendas claras e informativas
-- ✅ Grid e formatação profissional
+### Chart Customization
+- ✅ Titles and axis labels in English
+- ✅ Consistent and appealing colors
+- ✅ Clear and informative legends
+- ✅ Grid and professional formatting
 
-## 🚀 Como Executar
+## 🚀 How to Run
 
-### Opção 1: Script Python
+### Option 1: Python Script
 ```bash
-# Instalar dependências
+# Install dependencies
 pip install -r requirements.txt
 
-# Executar análise
+# Run analysis
 python data_analysis.py
 ```
 
-### Opção 2: Notebook Jupyter
+### Option 2: Jupyter Notebook
 ```bash
-# Instalar dependências
+# Install dependencies
 pip install -r requirements.txt
 
-# Iniciar Jupyter
+# Start Jupyter
 jupyter notebook
 
-# Abrir data_analysis.ipynb
+# Open data_analysis.ipynb
 ```
 
-## 📈 Saídas Geradas
+## 📈 Outputs
 
-Após a execução, o projeto gera:
-- **Análise completa no terminal** com estatísticas e descobertas
-- **Arquivo de imagem** `iris_analysis.png` com todas as visualizações
-- **Relatório detalhado** de padrões e correlações encontradas
+After running, the project generates:
+- **Complete analysis in the terminal** with statistics and findings
+- **Image file** `iris_analysis.png` with all visualizations
+- **Detailed report** of identified patterns and correlations
 
-## 🔧 Personalização
+## 🔧 Customization
 
-O código é facilmente adaptável para outros datasets:
-- Modifique `load_iris_dataset()` para carregar seu próprio CSV
-- Ajuste as visualizações para suas variáveis específicas
-- Personalize cores, estilos e formatação
+The code is easily adaptable to other datasets:
+- Modify `load_iris_dataset()` to load your own CSV
+- Adjust the visualizations to your specific variables
+- Customize colors, styles, and formatting
 
-## 📚 Bibliotecas Utilizadas
+## 📚 Libraries Used
 
-- **pandas**: Manipulação e análise de dados
-- **matplotlib**: Criação de gráficos e visualizações
-- **seaborn**: Estilos e paletas de cores
-- **numpy**: Operações numéricas
-- **scikit-learn**: Carregamento do dataset Iris
+- **pandas**: Data manipulation and analysis
+- **matplotlib**: Charts and visualizations
+- **seaborn**: Styles and color palettes
+- **numpy**: Numerical operations
+- **scikit-learn**: Loading the Iris dataset
 
-## 🎯 Conclusão
+## 🎯 Conclusion
 
-Este projeto demonstra com sucesso:
-- ✅ Carregamento e exploração eficiente de dados
-- ✅ Análise estatística abrangente
-- ✅ Criação de visualizações informativas e atrativas
-- ✅ Código bem estruturado e documentado
-- ✅ Tratamento robusto de erros
-- ✅ Implementação de todas as tarefas solicitadas
+This project successfully demonstrates:
+- ✅ Efficient data loading and exploration
+- ✅ Comprehensive statistical analysis
+- ✅ Creation of informative and attractive visualizations
+- ✅ Well-structured and documented code
+- ✅ Robust error handling
+- ✅ Implementation of all requested tasks
 
-O dataset Iris serve como exemplo perfeito para demonstrar técnicas de análise exploratória de dados e visualização, mostrando como diferentes espécies podem ser distinguidas com base em suas características morfológicas.
+The Iris dataset is a perfect example to demonstrate exploratory data analysis and visualization techniques, showing how different species can be distinguished based on their morphological features.
 
 ---
 
-**👨‍💻 Desenvolvido para a Semana 7 - Python Assignment**  
-**📅 Data**: Dezembro 2024  
-**🔧 Tecnologias**: Python, Pandas, Matplotlib, Seaborn
+**👨‍💻 Developed for Week 7 - Python Assignment**  
+**📅 Date**: December 2024  
+**🔧 Technologies**: Python, Pandas, Matplotlib, Seaborn
